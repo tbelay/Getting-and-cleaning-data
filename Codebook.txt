@@ -1,0 +1,132 @@
+CODEBOOK
+Getting and Cleaning Data Course Project
+
+ 
+1. finalcombined_data
+
+	Activity 		(1.WALKING
+ 2.WALKING_UPSTAIRS 
+3.WALKING_DOWNSTAIRS 
+4.SITTING
+ 5.STANDING 
+6.LAYING
+)
+	subjects 		(Individuals participating in the training and test group. Value range from 1 to 30)
+
+	
+
+	TimeBodyAcc_mean_X	( mean of time domain linear accelerometer x-axis raw signals)
+	TimeBodyAcc_mean_Y	( mean of time domain linear accelerometer y-axis raw signals)
+	TimeBodyAcc_mean_Z	( mean of time domain linear accelerometer z-axis raw signals)
+	TimeBodyAcc_std_X	( standard devaition of time domain accelerometer x-axis raw signals)
+	TimeBodyAcc_std_Y	( standard devaition of time domain accelerometer y-axis raw signals)
+	TimeBodyAcc_std_Z	( standard devaition of time domain accelerometer z-axis raw signals)
+
+	(The followings 6 variables are mean and standard devaitions of time domain linear acceleration of device 3-axial raw signals)
+
+	TimeGravityAcc_mean_X
+	TimeGravityAcc_mean_Y
+	TimeGravityAcc_mean_Z
+	TimeGravityAcc_std_X
+	TimeGravityAcc_std_Y
+	TimeGravityAcc_std_Z
+
+	(The followings 6 variables are mean and standard devaitions of time domain acceleration of device due to body jerk 3-axial raw signals)
+
+	TimeBodyAccJerk_mean_X
+	TimeBodyAccJerk_mean_Y
+	TimeBodyAccJerk_mean_Z
+	TimeBodyAccJerk_std_X
+	TimeBodyAccJerk_std_Y
+	TimeBodyAccJerk_std_Z
+
+	(The followings 6 variables are mean and standard devaitions of time domain body angular velocity vector measured by the gyroscope of the device)
+
+	TimeBodyGyro_mean_X
+	TimeBodyGyro_mean_Y
+	TimeBodyGyro_mean_Z
+	TimeBodyGyro_std_X
+	TimeBodyGyro_std_Y
+	TimeBodyGyro_std_Z
+
+	(The followings 6 variables are mean and standard devaitions of time domain body jerk signals derived from the linear acceleration and angular velocity)
+
+	TimeBodyGyroJerk_mean_X
+	TimeBodyGyroJerk_mean_Y
+	TimeBodyGyroJerk_mean_Z
+	TimeBodyGyroJerk_std_X
+	TimeBodyGyroJerk_std_Y
+	TimeBodyGyroJerk_std_Z
+
+	(magnitude)
+
+	TimeBodyAccMag_mean
+	TimeBodyAccMag_std
+
+	TimeGravityAccMag_mean
+	TimeGravityAccMag_std
+
+	TimeBodyAccJerkMag_mean
+	TimeBodyAccJerkMag_std
+
+	TimeBodyGyroMag_mean
+	TimeBodyGyroMag_std
+
+	TimeBodyGyroJerkMag_mean
+	TimeBodyGyroJerkMag_std
+
+	(The mean and standard devaitions of frequency domain linear acceleration of device 3-axial raw signals)
+
+	FrequencyBodyAcc_mean_X
+	FrequencyBodyAcc_mean_Y
+	FrequencyBodyAcc_mean_Z
+	FrequencyBodyAcc_meanFreq_X
+	FrequencyBodyAcc_meanFreq_Y
+	FrequencyBodyAcc_meanFreq_Z
+
+	(The followings 6 variables are mean and standard devaitions of frequency domain acceleration of device due to body jerk 3-axial raw signals)
+
+	FrequencyBodyAccJerk_mean_X
+	FrequencyBodyAccJerk_mean_Y
+	FrequencyBodyAccJerk_mean_Z
+	FrequencyBodyAccJerk_meanFreq_X
+	FrequencyBodyAccJerk_meanFreq_Y
+	FrequencyBodyAccJerk_meanFreq_Z
+
+	(The followings 6 variables are mean and standard devaitions of frequency domain body angular velocity vector measured by the gyroscope of the device)
+
+	FrequencyBodyGyro_mean_X
+	FrequencyBodyGyro_mean_Y
+	FrequencyBodyGyro_mean_Z
+	FrequencyBodyGyro_meanFreq_X
+	FrequencyBodyGyro_meanFreq_Y
+	FrequencyBodyGyro_meanFreq_Z
+
+	(Magnitude)
+
+	FrequencyBodyAccMag_mean
+	FrequencyBodyAccMag_meanFreq
+
+	FrequencyBodyBodyAccJerkMag_mean
+	FrequencyBodyBodyAccJerkMag_meanFreq
+
+	FrequencyBodyBodyGyroMag_mean
+	FrequencyBodyBodyGyroMag_meanFreq
+
+	FrequencyBodyBodyGyroJerkMag_mean
+	FrequencyBodyBodyGyroJerkMag_meanFreq
+
+	(Additional vectors obtained by averaging the signals in a signal window sample)
+
+	angle(TimeBodyAccMean,gravity)
+	angle(TimeBodyAccJerkMean),gravityMean)
+
+	angle(TimeBodyGyroMean,gravityMean)
+	angle(TimeBodyGyroJerkMean,gravityMean)
+
+	angle(X,graviTimeyMean)
+	angle(Y,graviTimeyMean)
+	angle(Z,graviTimeyMean)
+
+2. mean_finalcombined_data
+	this data frame contains the computed mean values of the above variables for each subject and activity
