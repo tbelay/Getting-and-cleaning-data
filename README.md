@@ -7,7 +7,6 @@ Tesfaye Belay, August 2014
 
 ==================================================================
 
-This is a codebook for the tidy data that is achieved after processing the data collected from the accelerometers from the Samsun Galaxy S smartphone.
 The original data contains data for the training and test sets of individuals with regard to their activities in separate files. The project for the
 "Getting and cleaning data" coursera course requires to clean and put together some of these files. 
 
